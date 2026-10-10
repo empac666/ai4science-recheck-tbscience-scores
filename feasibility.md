@@ -1,6 +1,6 @@
 # Terminal-Bench-Science 分数对账：可行性与输入说明
 
-2026-10-10；版本 **R11fix-1**。已有数据的独立审计规程配套文件，分析规则以 [PREREG.md](PREREG.md) 为准。核心匿名数据已拿到，可在一天内完成记录对账。仅此前做过结构/主键和小计数检查；本轮修订未运行正式主分析、区间或模型。
+2026-10-10；版本 **R11lock**。已有数据的独立审计规程配套文件，分析规则以 [PREREG.md](PREREG.md) 为准。核心匿名数据已拿到，可在一天内完成记录对账。仅此前做过结构/主键和小计数检查；本轮修订未运行正式主分析、区间或模型。
 
 ## 1. 冻结与已知信息
 
@@ -14,11 +14,11 @@
 | 配置 | metadata中的GPT-6 Astra/Codex/max、Fable 5.1/Claude Code/max |
 | 任务 | 70唯一id；life19、physical17、mathematical17、engineering9、earth8 |
 | 标签与主键 | 各70 cell×3条JSON bool，共420；各210唯一trial，3个job×70，每task每job一条；无缺项/重复 |
-| 已知计数／均值 | bool小计及metrics为143/210、84/210；accuracy为68.0952380952381、40（0–100）；展示68.1／40.0，stderr展示3.2／3.4 |
+| 已知计数／均值 | bool小计及metrics为143/210、84/210；accuracy为68.0952380952381、40（0–100）；展示68.1／40.0，原始accuracy_stderr数字串 `3.2164475807033743`／`3.380617018914066`，stderr展示3.2／3.4 |
 | 已见来源差异 | 模型卡10次/700，官方3次/210；AA mini-swe-agent；OpenAI maximum at any effort的两种操作未知 |
 | 限制 | Vals换了当前数字；Astra只抽查1条配置；Fable详情404；任务字节未锁 |
 
-这不是独立主分析；三份文档的143/84是同一次查看。冻结AP-01/02计数预测、AP-03确定的SE、AP-04平衡设计恒等式。正式执行须新写/冻结代码，两路径独立求和，不import可行性脚本；任一路径偏离计数预测，先保存再停止后续。
+这不是独立主分析；三份文档的143/84是同一次查看。冻结AP-01/02计数预测、AP-03确定的SE、AP-04平衡设计恒等式、AP-05/06镜像、AP-07至AP-11外部五对主标签及AP-12至AP-19有理数集合预测；逐项预测/独立提取或枚举/相符/偏离记录以PREREG为准。正式执行须新写/冻结代码，两路径独立求和，不import可行性脚本；任一路径偏离计数预测，先保存再停止后续。
 
 ## 2. 冻结提取路径与一手支撑
 
@@ -31,12 +31,12 @@
 | S2／openai_web_rendered.json | JSON `tool_result`中L182表头GPT-6 Astra列，L183 Terminal-Bench Science 0.1行`64.6%`，L224方法`maximum at any effort` | `retrieved_at_utc=2026-10-10 00:25:38 UTC`，渲染读取时间；出版/运行时间未知 |
 | S3、S6／vals_home.html | CSS `div.hidden.update-content[data-update-slug="2026-09-11-terminal-bench-science"]`：Astra `65.71%`、Fable `34.29%`；不取当前benchmarkData或BenchLM内嵌Vals表 | 祖先astro-island的`props`按Astro序列化解包，`updates`中同slug的`data.date=09/11/2026`（公告日期） |
 | S4、S7／science_board_v01.json | `rows`中§1两个精确id；`metrics.display_accuracy`分别`**68.1%** +/- 3.2%`、`**40.0%** +/- 3.4%`；原值`metrics.accuracy`，SE `metrics.accuracy_stderr` | 两行`created_at/updated_at`为09-22/09-22、09-13/09-16（榜单行时间）；保留完整UTC原串 |
-| S5／anthropic_systemcard.html | MIME application/pdf，文件头`%PDF-`；二进制传pdftotext `-layout`，印刷页171–172中§8.7 Terminal-Bench-Science唯一句`Claude Fable 5.1 scored 52.6% averaged over 10 trials per task (700 trials)` | HTTP `Last-Modified=Tue, 01 Sep 2026 17:40:21 GMT`（服务器修改字段，不证明出版日）；抓取UTC单列 |
-| 镜像／benchlm_science.html | 唯一`script#__NEXT_DATA__` JSON，仅`props.pageProps.leaderboard`中sourceModelId=`openai-gpt-6-astra-codex`及`anthropic-fable-5-1-claude-code`；model=`GPT-6 Astra`／`Claude Fable 5.1`，harness/effort=Codex/max／Claude Code/max，score=`68.1`／`40`，externalUrl指向官方；`props.pageProps.trustCard.provenance.kind=mirror`，sourceUrl为官方域 | `props.pageProps.lastUpdated=October 7, 2026 snapshot`（快照日期） |
+| S5／anthropic_systemcard.html | MIME application/pdf，文件头`%PDF-`；二进制传pdftotext `-layout`，§8.7 Terminal-Bench-Science唯一句（印刷页171–172与pdftotext页序仅作定位）`Claude Fable 5.1 scored 52.6% averaged over 10 trials per task (700 trials)` | HTTP `Last-Modified=Tue, 01 Sep 2026 17:40:21 GMT`（服务器修改字段，在类型上满足日期字段提取规范，不证明出版日或运行日）；抓取UTC单列 |
+| 镜像／benchlm_science.html | 唯一`script#__NEXT_DATA__` JSON，仅`props.pageProps.leaderboard`中sourceModelId=`openai-gpt-6-astra-codex`及`anthropic-fable-5-1-claude-code`；model=`GPT-6 Astra`／`Claude Fable 5.1`，harness/effort=Codex/max／Claude Code/max，score=`68.1`／`40`，externalUrl精确为`https://www.terminal-bench-science.ai/`；`props.pageProps.trustCard.provenance.kind=mirror`，sourceUrl精确为`https://www.terminal-bench-science.ai/`；provenance完整对象及两行全部元数据按PREREG §4逐字段精确相等 | `props.pageProps.lastUpdated=October 7, 2026 snapshot`（快照日期） |
 
 七说法分母S1–S7固定；S1未读，S2“渲染可读”不进原始字节分子，**上限5/7，实际数由提取核验决定**。S1a独立报告，不补63、不增加七数分母。镜像不是独立评测，不重复增加分子。
 
-S5发布页 `anthropic_release.html`只作同值旁证：HTML指标表Terminal-Bench-Science 0.1行、Claude Fable 5.1列52.6%；不替代PDF的700和设置证据。PDF不得交给HTML解析器，派生TXT不是原始输入。
+S5发布页 `anthropic_release.html`只作同值旁证：HTML指标表Terminal-Bench-Science 0.1行、Claude Fable 5.1列52.6%；不替代PDF的700和设置证据。PDF不得交给HTML解析器，派生TXT不是原始输入。上述唯一句命中时，印刷页码与pdftotext页序差异不构成提取失败；唯一句缺失或不唯一仍失败。pdftotext版本不一致按S5提取失败处理。
 
 ## 3. 配置、背景与版本锁
 
@@ -51,9 +51,9 @@ S5发布页 `anthropic_release.html`只作同值旁证：HTML指标表Terminal-B
 | tb_tree_v01.json、tb_tag.json | 任务名称/域和版本佐证，不验证运行身份或字节一致 |
 | tb_news.html | 冻结哈希的背景，**不参与任何终点** |
 
-锁CPython3.13.5、NumPy2.5.3、BeautifulSoup4 4.15.0、Poppler/pdftotext25.03.0，可选Matplotlib3.11.2。主百分数/SE用精度50 Decimal，主显示HALF_UP；显示解释仅HALF_UP/HALF_EVEN/DOWN，有理数只HALF_UP；版本变化先记偏离。
+锁CPython3.13.5、NumPy2.5.3、BeautifulSoup4 4.15.0、Poppler/pdftotext25.03.0，可选Matplotlib3.11.2。主百分数/SE用精度50 Decimal，主显示HALF_UP；显示解释仅HALF_UP/HALF_EVEN/DOWN，有理数只HALF_UP；版本变化先记偏离。CPython或NumPy任一不一致停止主区间及分层敏感性；BeautifulSoup或Matplotlib不一致记偏离；pdftotext不一致使S5提取失败，不替换解析器。
 
-主区间非分层70任务簇，10,000次PCG64(2026101001)、linear分位数；分层按原域数仅敏感性，另seed2026101002；两系统共用任务索引。区间只描述官方420标签重采样，不判外部数字显著性/谁正确，不以作者±重叠判显著性。SE相等规则见PREREG §5：原始stderr各量化后核显示，不直接用未量化长串比较。
+主区间非分层70任务簇，10,000次PCG64(2026101001)、linear分位数；分层按原域数仅敏感性，另seed2026101002；两系统共用任务索引。区间只描述官方420标签重采样，不判外部数字显著性/谁正确，不以作者±重叠判显著性。SE相等规则见PREREG §5：计算SE与原始stderr各按 `Decimal('0.1')`、HALF_UP量化一位成定点数字串，须与按字面 `+/-` 切分的后段数字串三方相等。前后段均strip并删除所有星号、百分号和空白；不接受Unicode替代，缺分隔符即提取失败并停止该项核对；原始长串不直接与显示短串比较。
 
 ## 4. 执行预算与降级
 
@@ -68,4 +68,4 @@ S5发布页 `anthropic_release.html`只作同值旁证：HTML指标表Terminal-B
 | 210–240分钟 | 图、冻结首句及报告核验 |
 | 8小时 | 硬停止，保存核心、诊断和次级未完成状态 |
 
-核心哈希/主键失败停止受影响计算，不换现榜、分母或筛失败。镜像无法抽取单列，不改变官方内部判定。次级配置缺失保留未知；缺失优先可覆盖已知配置差异，仍保留差异事实。公开只含方案、自制结果与必要元数据，不上传原始HTML/PDF/JSON、轨迹或环境配置。本轮只修订/本地提交，不执行以上主分析。
+核心哈希/主键失败停止受影响计算，不换现榜、分母或筛失败。镜像无法抽取单列，不改变官方内部判定。次级配置缺失保留未知；运行身份只由同一原文中的官方row_id及榜单运行命中，模型/agent/effort不代替身份。五对主标签均预测“来源未完整披露”，优先级2–5对它们不适用；已见agent或试次数差异另留事实列。配置触发字段只限模型、agent、effort操作、试次数、指标公式、数据集版本，不由单条trial的版本/verifier/timeout触发。公开只含方案、自制结果与必要元数据，不上传原始HTML/PDF/JSON、轨迹或环境配置。本轮只修订/本地提交，不执行以上主分析。

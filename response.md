@@ -1,6 +1,6 @@
 # R11fix 修订回应
 
-2026-10-10；版本 **R11fix-1**。分别回应 [agy_review.md](agy_review.md) 与 [grok_review.md](grok_review.md)。所有must-fix的实质要求已落实；建议规则冲突时采用grok的更严格封闭规则。本文是修订记录，不是正式分析结果。
+2026-10-10；版本 **R11fix-1**。分别回应 [agy_review.md](agy_review.md) 与 [grok_review.md](grok_review.md)。所有must-fix的实质要求已落实；建议规则冲突时采用grok的更严格封闭规则。本文是第一轮修订历史记录，不是正式分析结果。第二轮定稿以 [response2.md](response2.md) 和R11lock版 [PREREG.md](PREREG.md) 为准；本表中的旧分隔符、首句raw表示、兜底标签及版本偏离规则已被第二轮规则替代。
 
 | 意见 | 处理方式 | 修改位置 |
 |---|---|---|
