@@ -1,0 +1,19 @@
+# Third-party bodies and local evidence caches
+data_cache/
+raw_inputs/
+cache/
+*.html
+*.pdf
+*.har
+*.log
+*.verified.tmp
+# Local environments, bytecode, and credentials
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+*credentials*
+*secrets*
