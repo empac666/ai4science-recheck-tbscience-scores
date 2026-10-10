@@ -1,0 +1,2371 @@
+{
+  "protocol_lock_commit": "acd553f7c989c1141424f8de33515727b4a61086",
+  "started_at_utc": "2026-10-10T01:50:16.571960+00:00",
+  "status": "completed",
+  "audit_predictions": {
+    "AP-01": {
+      "prediction": {
+        "A": {
+          "K": 143,
+          "N": 210
+        },
+        "B": {
+          "K": 143,
+          "N": 210
+        },
+        "display": "68.1"
+      },
+      "observed": {
+        "A": {
+          "K": 143,
+          "N": 210
+        },
+        "B": {
+          "K": 143,
+          "N": 210
+        },
+        "display": "68.1"
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-02": {
+      "prediction": {
+        "A": {
+          "K": 84,
+          "N": 210
+        },
+        "B": {
+          "K": 84,
+          "N": 210
+        },
+        "display": "40.0"
+      },
+      "observed": {
+        "A": {
+          "K": 84,
+          "N": 210
+        },
+        "B": {
+          "K": 84,
+          "N": 210
+        },
+        "display": "40.0"
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-03": {
+      "prediction": {
+        "Astra": "3.2",
+        "Fable": "3.4",
+        "three_way_equal": true
+      },
+      "observed": {
+        "summary": {
+          "Astra": "3.2",
+          "Fable": "3.4",
+          "three_way_equal": true
+        },
+        "checks": {
+          "Astra": {
+            "computed": "3.2164475807033744402736171221345012828064718505697",
+            "original": "3.2164475807033743",
+            "computed_one_decimal": "3.2",
+            "original_one_decimal": "3.2",
+            "display": "3.2",
+            "matches": true
+          },
+          "Fable": {
+            "computed": "3.3806170189140663100384733094637811705231435604538",
+            "original": "3.380617018914066",
+            "computed_one_decimal": "3.4",
+            "original_one_decimal": "3.4",
+            "display": "3.4",
+            "matches": true
+          }
+        }
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-04": {
+      "prediction": {
+        "Astra": true,
+        "Fable": true
+      },
+      "observed": {
+        "Astra": {
+          "task_mean_exact": "1430/21",
+          "trial_mean_exact": "1430/21",
+          "matches": true
+        },
+        "Fable": {
+          "task_mean_exact": "40",
+          "trial_mean_exact": "40",
+          "matches": true
+        }
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-05": {
+      "prediction": "一致",
+      "observed": {
+        "verdict": "一致",
+        "status": "completed",
+        "raw_fields": {
+          "sourceModelId": "openai-gpt-6-astra-codex",
+          "model": "GPT-6 Astra",
+          "harness": "Codex",
+          "reasoningEffort": "max",
+          "externalUrl": "https://www.terminal-bench-science.ai/"
+        },
+        "provenance": {
+          "kind": "mirror",
+          "total": 17,
+          "text": "Every row is mirrored from Terminal-Bench-Science 0.1 as it publishes it; BenchLM did not re-run these results.",
+          "sourceUrl": "https://www.terminal-bench-science.ai/"
+        },
+        "score_raw_string": "68.1",
+        "official_quantized": "68.1",
+        "mirror_quantized": "68.1",
+        "field_checks": {
+          "sourceModelId": true,
+          "model": true,
+          "harness": true,
+          "reasoningEffort": true,
+          "externalUrl": true,
+          "provenance.kind": true,
+          "provenance.total": true,
+          "provenance.text": true,
+          "provenance.sourceUrl": true,
+          "provenance.key_set": true,
+          "provenance.total_integer": true,
+          "score_quantized": true
+        },
+        "snapshot_date": "October 7, 2026 snapshot"
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-06": {
+      "prediction": "一致",
+      "observed": {
+        "verdict": "一致",
+        "status": "completed",
+        "raw_fields": {
+          "sourceModelId": "anthropic-fable-5-1-claude-code",
+          "model": "Claude Fable 5.1",
+          "harness": "Claude Code",
+          "reasoningEffort": "max",
+          "externalUrl": "https://www.terminal-bench-science.ai/"
+        },
+        "provenance": {
+          "kind": "mirror",
+          "total": 17,
+          "text": "Every row is mirrored from Terminal-Bench-Science 0.1 as it publishes it; BenchLM did not re-run these results.",
+          "sourceUrl": "https://www.terminal-bench-science.ai/"
+        },
+        "score_raw_string": "40",
+        "official_quantized": "40.0",
+        "mirror_quantized": "40.0",
+        "field_checks": {
+          "sourceModelId": true,
+          "model": true,
+          "harness": true,
+          "reasoningEffort": true,
+          "externalUrl": true,
+          "provenance.kind": true,
+          "provenance.total": true,
+          "provenance.text": true,
+          "provenance.sourceUrl": true,
+          "provenance.key_set": true,
+          "provenance.total_integer": true,
+          "score_quantized": true
+        },
+        "snapshot_date": "October 7, 2026 snapshot"
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-07": {
+      "prediction": "来源未完整披露",
+      "observed": {
+        "facts": {
+          "model": {
+            "state": "已见字面",
+            "literal": "GPT-6 Astra (Max)"
+          },
+          "agent": {
+            "state": "与官方不同",
+            "literal": "mini-swe-agent"
+          },
+          "effort_literal": {
+            "state": "已见字面",
+            "literal": "Max"
+          },
+          "effort_operation": {
+            "state": "缺失",
+            "literal": null
+          },
+          "trials": {
+            "state": "与官方相同",
+            "literal": "three repeats per task"
+          },
+          "metric_formula": {
+            "state": "与官方相同",
+            "literal": "pass@1 averaged over three repeats per task"
+          },
+          "dataset_version": {
+            "state": "缺失",
+            "literal": null
+          },
+          "run_identity": {
+            "state": "缺失",
+            "literal": null
+          }
+        },
+        "identity_evidence": {
+          "official_row_id_present": false,
+          "official_leaderboard_id_present": false,
+          "dataset_version_id_present": false,
+          "release_commit_present": false,
+          "release_v0_1_0_present": true,
+          "scope": "same frozen source; Vals restricted to historical announcement; PDF section 8.7"
+        },
+        "classification": {
+          "label": "来源未完整披露",
+          "first_priority": 1,
+          "missing_required_fields": [
+            "effort_operation",
+            "dataset_version",
+            "run_identity"
+          ],
+          "extraction_failed": false,
+          "interpretation": "priorities 2–5 not applicable"
+        },
+        "source": {
+          "file": "aa_science.html",
+          "url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
+          "sha256": "a0b7ea406acce84d9857e75846a16f3f529ed3e513192f3c851f413242903029",
+          "http_status": 200,
+          "input_kind": "http_bytes",
+          "extraction_path": "innermost summary/method div; self.__next_f.push RSC exact id/slug",
+          "hit_strings": [
+            "GPT-6 Astra (Max)",
+            "with a score of 63.3%",
+            "mini-swe-agent",
+            "three repeats per task",
+            "70-task",
+            "0.633333333333333"
+          ],
+          "date_field": "2026-09-03",
+          "date_type": "model release date; not evaluation date",
+          "fetched_at_utc": "2026-10-10T00:22:38.433091+00:00",
+          "primary_support": true
+        }
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-08": {
+      "prediction": "来源未完整披露",
+      "observed": {
+        "facts": {
+          "model": {
+            "state": "已见字面",
+            "literal": "GPT-6 Astra"
+          },
+          "agent": {
+            "state": "缺失",
+            "literal": null
+          },
+          "effort_literal": {
+            "state": "已见字面",
+            "literal": "maximum at any effort"
+          },
+          "effort_operation": {
+            "state": "缺失",
+            "literal": null
+          },
+          "trials": {
+            "state": "缺失",
+            "literal": null
+          },
+          "metric_formula": {
+            "state": "缺失",
+            "literal": null
+          },
+          "dataset_version": {
+            "state": "缺失",
+            "literal": null
+          },
+          "run_identity": {
+            "state": "缺失",
+            "literal": null
+          }
+        },
+        "identity_evidence": {
+          "official_row_id_present": false,
+          "official_leaderboard_id_present": false,
+          "dataset_version_id_present": false,
+          "release_commit_present": false,
+          "release_v0_1_0_present": false,
+          "scope": "same frozen source; Vals restricted to historical announcement; PDF section 8.7"
+        },
+        "classification": {
+          "label": "来源未完整披露",
+          "first_priority": 1,
+          "missing_required_fields": [
+            "agent",
+            "effort_operation",
+            "trials",
+            "metric_formula",
+            "dataset_version",
+            "run_identity"
+          ],
+          "extraction_failed": false,
+          "interpretation": "priorities 2–5 not applicable"
+        },
+        "source": {
+          "file": "openai_web_rendered.json",
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "sha256": "c4a1fa107a6ff7cbb12cac06705701a75bc7bde7a61a549e91b5fb87c85bdd4d",
+          "http_status": null,
+          "input_kind": "rendered_record",
+          "extraction_path": "tool_result L182/L183/L224",
+          "hit_strings": [
+            "GPT-6 Astra",
+            "64.6%",
+            "maximum at any effort"
+          ],
+          "date_field": "2026-10-10 00:25:38 UTC",
+          "date_type": "rendered retrieval time; publication/run time unknown",
+          "fetched_at_utc": "2026-10-10T00:25:38+00:00",
+          "primary_support": false
+        }
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-09": {
+      "prediction": "来源未完整披露",
+      "observed": {
+        "facts": {
+          "model": {
+            "state": "已见字面",
+            "literal": "GPT-6 Astra"
+          },
+          "agent": {
+            "state": "缺失",
+            "literal": null
+          },
+          "effort_literal": {
+            "state": "缺失",
+            "literal": null
+          },
+          "effort_operation": {
+            "state": "缺失",
+            "literal": null
+          },
+          "trials": {
+            "state": "缺失",
+            "literal": null
+          },
+          "metric_formula": {
+            "state": "缺失",
+            "literal": null
+          },
+          "dataset_version": {
+            "state": "缺失",
+            "literal": null
+          },
+          "run_identity": {
+            "state": "缺失",
+            "literal": null
+          }
+        },
+        "identity_evidence": {
+          "official_row_id_present": false,
+          "official_leaderboard_id_present": false,
+          "dataset_version_id_present": false,
+          "release_commit_present": false,
+          "release_v0_1_0_present": false,
+          "scope": "same frozen source; Vals restricted to historical announcement; PDF section 8.7"
+        },
+        "classification": {
+          "label": "来源未完整披露",
+          "first_priority": 1,
+          "missing_required_fields": [
+            "agent",
+            "effort_operation",
+            "trials",
+            "metric_formula",
+            "dataset_version",
+            "run_identity"
+          ],
+          "extraction_failed": false,
+          "interpretation": "priorities 2–5 not applicable"
+        },
+        "source": {
+          "file": "vals_home.html",
+          "url": "https://www.vals.ai/home",
+          "sha256": "d732d101905e085a8340afc2499efbf08f21e95f5af9fc3af42d826e721440c6",
+          "http_status": 200,
+          "input_kind": "http_bytes",
+          "extraction_path": "div.hidden.update-content[data-update-slug=2026-09-11-terminal-bench-science]; ancestor astro-island props updates.data.date",
+          "hit_strings": [
+            "GPT-6 Astra",
+            "65.71%",
+            "one harness fixed",
+            "pass@1"
+          ],
+          "date_field": "09/11/2026",
+          "date_type": "announcement date",
+          "fetched_at_utc": "2026-10-10T00:22:38.430302+00:00",
+          "primary_support": true
+        }
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-10": {
+      "prediction": "来源未完整披露",
+      "observed": {
+        "facts": {
+          "model": {
+            "state": "已见字面",
+            "literal": "Claude Fable 5.1"
+          },
+          "agent": {
+            "state": "已见字面",
+            "literal": "Claude Code --bare"
+          },
+          "effort_literal": {
+            "state": "已见字面",
+            "literal": "maximum effort"
+          },
+          "effort_operation": {
+            "state": "与官方相同",
+            "literal": "maximum effort"
+          },
+          "trials": {
+            "state": "与官方不同",
+            "literal": "10 trials per task (700 trials)"
+          },
+          "metric_formula": {
+            "state": "与官方相同",
+            "literal": "averaged over 10 trials per task"
+          },
+          "dataset_version": {
+            "state": "缺失",
+            "literal": null
+          },
+          "run_identity": {
+            "state": "缺失",
+            "literal": null
+          }
+        },
+        "identity_evidence": {
+          "official_row_id_present": false,
+          "official_leaderboard_id_present": false,
+          "dataset_version_id_present": false,
+          "release_commit_present": false,
+          "release_v0_1_0_present": false,
+          "scope": "same frozen source; Vals restricted to historical announcement; PDF section 8.7"
+        },
+        "classification": {
+          "label": "来源未完整披露",
+          "first_priority": 1,
+          "missing_required_fields": [
+            "dataset_version",
+            "run_identity"
+          ],
+          "extraction_failed": false,
+          "interpretation": "priorities 2–5 not applicable"
+        },
+        "source": {
+          "file": "anthropic_systemcard.html",
+          "url": "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card",
+          "sha256": "b0d59edc7a60eef32a879c13d713cce60c3fefd7e6b5183afdc8b835af3c8c39",
+          "http_status": 200,
+          "input_kind": "http_bytes",
+          "extraction_path": "PDF bytes -> pdftotext -layout -> section 8.7 unique sentence",
+          "hit_strings": [
+            "Claude Fable 5.1 scored 52.6% averaged over 10 trials per task (700 trials)",
+            "Claude Code in --bare mode",
+            "maximum thinking effort"
+          ],
+          "date_field": "Tue, 01 Sep 2026 17:40:21 GMT",
+          "date_type": "HTTP Last-Modified; not proof of publication/run date",
+          "fetched_at_utc": "2026-10-10T00:24:50.170927+00:00",
+          "primary_support": true
+        }
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-11": {
+      "prediction": "来源未完整披露",
+      "observed": {
+        "facts": {
+          "model": {
+            "state": "已见字面",
+            "literal": "Claude Fable 5.1"
+          },
+          "agent": {
+            "state": "缺失",
+            "literal": null
+          },
+          "effort_literal": {
+            "state": "缺失",
+            "literal": null
+          },
+          "effort_operation": {
+            "state": "缺失",
+            "literal": null
+          },
+          "trials": {
+            "state": "缺失",
+            "literal": null
+          },
+          "metric_formula": {
+            "state": "缺失",
+            "literal": null
+          },
+          "dataset_version": {
+            "state": "缺失",
+            "literal": null
+          },
+          "run_identity": {
+            "state": "缺失",
+            "literal": null
+          }
+        },
+        "identity_evidence": {
+          "official_row_id_present": false,
+          "official_leaderboard_id_present": false,
+          "dataset_version_id_present": false,
+          "release_commit_present": false,
+          "release_v0_1_0_present": false,
+          "scope": "same frozen source; Vals restricted to historical announcement; PDF section 8.7"
+        },
+        "classification": {
+          "label": "来源未完整披露",
+          "first_priority": 1,
+          "missing_required_fields": [
+            "agent",
+            "effort_operation",
+            "trials",
+            "metric_formula",
+            "dataset_version",
+            "run_identity"
+          ],
+          "extraction_failed": false,
+          "interpretation": "priorities 2–5 not applicable"
+        },
+        "source": {
+          "file": "vals_home.html",
+          "url": "https://www.vals.ai/home",
+          "sha256": "d732d101905e085a8340afc2499efbf08f21e95f5af9fc3af42d826e721440c6",
+          "http_status": 200,
+          "input_kind": "http_bytes",
+          "extraction_path": "div.hidden.update-content[data-update-slug=2026-09-11-terminal-bench-science]; ancestor astro-island props updates.data.date",
+          "hit_strings": [
+            "Claude Fable 5.1",
+            "34.29%",
+            "one harness fixed",
+            "pass@1"
+          ],
+          "date_field": "09/11/2026",
+          "date_type": "announcement date",
+          "fetched_at_utc": "2026-10-10T00:22:38.430302+00:00",
+          "primary_support": true
+        }
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-12": {
+      "prediction": [
+        133
+      ],
+      "observed": {
+        "record": "S1a",
+        "x": "63.3",
+        "d": 1,
+        "N": 210,
+        "denominator_qualification": "same original document",
+        "numerators": [
+          133
+        ],
+        "status": "completed",
+        "same_document_N": 210
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-13": {
+      "prediction": [
+        46
+      ],
+      "observed": {
+        "record": "S3",
+        "x": "65.71",
+        "d": 2,
+        "N": 70,
+        "denominator_qualification": "assumed N; not written in announcement",
+        "numerators": [
+          46
+        ],
+        "status": "completed",
+        "same_document_N": null
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-14": {
+      "prediction": [
+        138
+      ],
+      "observed": {
+        "record": "S3",
+        "x": "65.71",
+        "d": 2,
+        "N": 210,
+        "denominator_qualification": "assumed N; not written in announcement",
+        "numerators": [
+          138
+        ],
+        "status": "completed",
+        "same_document_N": null
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-15": {
+      "prediction": [
+        24
+      ],
+      "observed": {
+        "record": "S6",
+        "x": "34.29",
+        "d": 2,
+        "N": 70,
+        "denominator_qualification": "assumed N; not written in announcement",
+        "numerators": [
+          24
+        ],
+        "status": "completed",
+        "same_document_N": null
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-16": {
+      "prediction": [
+        72
+      ],
+      "observed": {
+        "record": "S6",
+        "x": "34.29",
+        "d": 2,
+        "N": 210,
+        "denominator_qualification": "assumed N; not written in announcement",
+        "numerators": [
+          72
+        ],
+        "status": "completed",
+        "same_document_N": null
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-17": {
+      "prediction": [
+        368
+      ],
+      "observed": {
+        "record": "S5",
+        "x": "52.6",
+        "d": 1,
+        "N": 700,
+        "denominator_qualification": "same original document",
+        "numerators": [
+          368
+        ],
+        "status": "completed",
+        "same_document_N": 700
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-18": {
+      "prediction": [
+        143
+      ],
+      "observed": {
+        "record": "S4",
+        "x": "68.1",
+        "d": 1,
+        "N": 210,
+        "denominator_qualification": "same original document",
+        "numerators": [
+          143
+        ],
+        "status": "completed",
+        "same_document_N": 210
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    },
+    "AP-19": {
+      "prediction": [
+        84
+      ],
+      "observed": {
+        "record": "S7",
+        "x": "40.0",
+        "d": 1,
+        "N": 210,
+        "denominator_qualification": "same original document",
+        "numerators": [
+          84
+        ],
+        "status": "completed",
+        "same_document_N": 210
+      },
+      "matches": true,
+      "status": "completed",
+      "deviation": null
+    }
+  },
+  "code_freeze": {
+    "frozen_at_utc": "2026-10-10T01:50:16.410189+00:00",
+    "protocol_lock_commit": "acd553f7c989c1141424f8de33515727b4a61086",
+    "scope": "all analysis, tests, and tools Python code; synthetic tests preceded this freeze",
+    "execution_epoch": 3,
+    "prior_epoch_archives": [
+      "artifacts/execution_01",
+      "artifacts/execution_02"
+    ],
+    "sha256": {
+      "analysis/__init__.py": "63e9ec20c9891eff1db6eef9ee94b1113f84b24454959972358c50b120e127f5",
+      "analysis/constants.py": "2dda18c6ec647e1dd12a31e61448b5b84f8db07f53f3249d0578d11f22afbe5c",
+      "analysis/environment.py": "8d266216016fef3bb823a93d634f1ea472e31a1a28bc40f322928078e8fd83c0",
+      "analysis/freeze.py": "fa6563df697be42421d180ce1f704f03b175c6513fc8c45e8b14d59b8012ff06",
+      "analysis/outputs.py": "ccabaf5679b6a884ec51b3d357615760e17da6373f1e86f334749fe51bdb94fc",
+      "analysis/path_a.py": "b903271f8d201f06903f5a44f90347df2050d7edce7b6665ed5b88a12a919c1e",
+      "analysis/path_b.py": "4bc7e352aa8b84f98407c2ae8fc6c872a23d187097d1c6afeb0c699dabc097f7",
+      "analysis/predictions.py": "dec5ee19667f8e6b66c6e4a482e0fea93ecc4c9ee68d9f403da8c4fbfed7e9d8",
+      "analysis/run.py": "ef0bf7f3fc24ded8be4fa082ab121bc8b4c6a0105b05bbba995d8dff9ff349b9",
+      "analysis/sources.py": "2286786e22b36d0abadb79b2014af2f8f154b4fbbb04b6a6b1b3f133f91d4f02",
+      "analysis/statistics.py": "b7b943597d35f72a866d3fe242eb3b21661d102b656db92e4ad5000c299ba204",
+      "tests/__init__.py": "21555fe5f8a7a2ee684ffd11141fad5e32c03cde6d599904cfc8ab0c023fdd59",
+      "tests/check_artifacts.py": "b34adc6a0a72f02a35475005a9cec987db9143ae95608a17ffa252b46c0fcb63",
+      "tests/test_audit.py": "aaf86ad6487a9e0e2610e2bf29a308a4e245670dfb6663d38bb43bd50b5795ff",
+      "tools/audit_rules.py": "15bd2251744c3a9ea28146409d630d36cf9f73b1ccbed55ff2e186a1f86d0143",
+      "tools/fetch_inputs.py": "bd656324685e52763104757e760574b70f8892baf8f43f954677d822db0104a3"
+    },
+    "locked_documents": {
+      "PREREG.md": "24e8eff613e537d07c304ece15a7f960b141557217d5fefb3727ed43a96333bf",
+      "feasibility.md": "e3c1b4083bf4b8406925520d93bcada49e57572fe51413be96d1584256236ec9",
+      "INPUTS_SHA256SUMS": "a5e93820d68fe781aaa5d09b75752782e52966771c54ebb2e40d156238d9497e"
+    }
+  },
+  "software_versions": {
+    "recorded_at_utc": "2026-10-10T01:50:16.645159+00:00",
+    "implementation": "CPython",
+    "system": {
+      "os": "Linux",
+      "release": "6.12.94+",
+      "architecture": "x86_64"
+    },
+    "locked": {
+      "python": "3.13.5",
+      "numpy": "2.5.3",
+      "beautifulsoup4": "4.15.0",
+      "pdftotext": "25.03.0",
+      "matplotlib": "3.11.2"
+    },
+    "actual": {
+      "python": "3.13.5",
+      "numpy": "2.5.3",
+      "beautifulsoup4": "4.15.0",
+      "matplotlib": "3.11.2",
+      "pdftotext": "25.03.0"
+    },
+    "matches": {
+      "python": true,
+      "numpy": true,
+      "beautifulsoup4": true,
+      "pdftotext": true,
+      "matplotlib": true
+    }
+  },
+  "execution_history": {
+    "first_execution_status": "completed_with_stopped_items",
+    "first_execution_started_at_utc": "2026-10-10T01:46:24.176923+00:00",
+    "first_execution_finished_at_utc": "2026-10-10T01:46:26.173750+00:00",
+    "recorded_at_utc": "2026-10-10T01:49:33.266706+00:00",
+    "archive": "artifacts/execution_01/",
+    "stopped_APs": {
+      "AP-07": {
+        "prediction": "来源未完整披露",
+        "observed": null,
+        "matches": false,
+        "status": "extraction_failed",
+        "deviation": "Extraction failed"
+      },
+      "AP-10": {
+        "prediction": "来源未完整披露",
+        "observed": null,
+        "matches": false,
+        "status": "extraction_failed",
+        "deviation": "Extraction failed"
+      },
+      "AP-12": {
+        "prediction": [
+          133
+        ],
+        "observed": null,
+        "matches": false,
+        "status": "extraction_failed",
+        "deviation": "Extraction failed"
+      },
+      "AP-17": {
+        "prediction": [
+          368
+        ],
+        "observed": null,
+        "matches": false,
+        "status": "extraction_failed",
+        "deviation": "Extraction failed"
+      }
+    },
+    "diagnosis": [
+      {
+        "item": "S1a / AP-07 / AP-12",
+        "observed_error": "AA score: expected unique node, got 3",
+        "implementation_correction": "Bind the score to GPT-6 Astra (Max) within the same locked unique innermost summary div; the original regex also captured scores of subsequent models."
+      },
+      {
+        "item": "S5 / AP-10 / AP-17",
+        "observed_error": "PDF section: expected unique node, got 2",
+        "implementation_correction": "Select the exact standalone section 8.7 heading in pdftotext layout text, excluding the table-of-contents entry, then require the same locked unique sentence."
+      }
+    ],
+    "protocol_changes": false,
+    "source_path_changes": false,
+    "predictions_thresholds_denominators_changed": false,
+    "first_run_interpretation": "Affected AP observations were null with extraction_failed and matches=false. Other independent calculations were retained. The first generated report incorrectly described all APs as complete; it is superseded by the corrected final report.",
+    "exposure_disclosure": "The corrected execution follows an observed first run; it is not blind. Every original code file and first-run AP record is archived. Final code hashes are frozen anew before corrected execution.",
+    "additional_executions": [
+      {
+        "execution_epoch": 2,
+        "status": "completed",
+        "archive": "artifacts/execution_02/",
+        "started_at_utc": "2026-10-10T01:48:02.391414+00:00",
+        "finished_at_utc": "2026-10-10T01:48:04.671701+00:00",
+        "all_AP_matches": true,
+        "diagnosis": "Auxiliary tree check incorrectly included CI, archived and tooling task.toml files (154) instead of the formal tasks/ directory (70). Core counts and APs were unaffected.",
+        "correction": "Limit task-name evidence to tasks/**/task.toml as intended by the frozen benchmark universe. Remove supplementary AA numeric reference from the figure footer so that only the seven claims and two recounts appear. Place the English repository/lock link in the second reply (three posts total).",
+        "protocol_changes": false,
+        "core_results_changed": false,
+        "exposure_disclosure": "This final implementation correction follows observed results; second-run results and every original code file are preserved."
+      }
+    ]
+  },
+  "count_paths": {
+    "A": {
+      "Astra": {
+        "K": 143,
+        "N": 210
+      },
+      "Fable": {
+        "K": 84,
+        "N": 210
+      }
+    },
+    "B": {
+      "Astra": {
+        "K": 143,
+        "N": 210
+      },
+      "Fable": {
+        "K": 84,
+        "N": 210
+      }
+    }
+  },
+  "official": {
+    "Astra": {
+      "K": 143,
+      "N": 210,
+      "integer_ratio": "143/210",
+      "percentage_decimal50": "68.095238095238095238095238095238095238095238095238",
+      "percentage_one_decimal": "68.1",
+      "verdict": "一致",
+      "checks": {
+        "paths_equal": true,
+        "per_task_paths_equal": true,
+        "per_job_paths_equal": true,
+        "accuracy_within_tolerance": true,
+        "display_matches": true
+      },
+      "reported_accuracy": "68.0952380952381",
+      "display_accuracy": "**68.1%** +/- 3.2%",
+      "stderr": {
+        "computed": "3.2164475807033744402736171221345012828064718505697",
+        "original": "3.2164475807033743",
+        "computed_one_decimal": "3.2",
+        "original_one_decimal": "3.2",
+        "display": "3.2",
+        "matches": true
+      },
+      "float_checks": {
+        "count_float": {
+          "binary_decimal": "68.095238095238102005168912000954151153564453125",
+          "difference_pp": "6.767073673905716055915469215029762E-15",
+          "algorithms": {
+            "ROUND_HALF_UP": {
+              "float": "68.1",
+              "decimal": "68.1",
+              "matches": true
+            },
+            "ROUND_HALF_EVEN": {
+              "float": "68.1",
+              "decimal": "68.1",
+              "matches": true
+            },
+            "ROUND_DOWN": {
+              "float": "68.0",
+              "decimal": "68.0",
+              "matches": true
+            }
+          }
+        },
+        "accuracy_float": {
+          "binary_decimal": "68.095238095238102005168912000954151153564453125",
+          "difference_pp": "6.767073673905716055915469215029762E-15",
+          "algorithms": {
+            "ROUND_HALF_UP": {
+              "float": "68.1",
+              "decimal": "68.1",
+              "matches": true
+            },
+            "ROUND_HALF_EVEN": {
+              "float": "68.1",
+              "decimal": "68.1",
+              "matches": true
+            },
+            "ROUND_DOWN": {
+              "float": "68.0",
+              "decimal": "68.0",
+              "matches": true
+            }
+          }
+        }
+      },
+      "weighting_identity": {
+        "task_mean_exact": "1430/21",
+        "trial_mean_exact": "1430/21",
+        "matches": true
+      }
+    },
+    "Fable": {
+      "K": 84,
+      "N": 210,
+      "integer_ratio": "84/210",
+      "percentage_decimal50": "40",
+      "percentage_one_decimal": "40.0",
+      "verdict": "一致",
+      "checks": {
+        "paths_equal": true,
+        "per_task_paths_equal": true,
+        "per_job_paths_equal": true,
+        "accuracy_within_tolerance": true,
+        "display_matches": true
+      },
+      "reported_accuracy": "40",
+      "display_accuracy": "**40.0%** +/- 3.4%",
+      "stderr": {
+        "computed": "3.3806170189140663100384733094637811705231435604538",
+        "original": "3.380617018914066",
+        "computed_one_decimal": "3.4",
+        "original_one_decimal": "3.4",
+        "display": "3.4",
+        "matches": true
+      },
+      "float_checks": {
+        "count_float": {
+          "binary_decimal": "40",
+          "difference_pp": "0.0",
+          "algorithms": {
+            "ROUND_HALF_UP": {
+              "float": "40.0",
+              "decimal": "40.0",
+              "matches": true
+            },
+            "ROUND_HALF_EVEN": {
+              "float": "40.0",
+              "decimal": "40.0",
+              "matches": true
+            },
+            "ROUND_DOWN": {
+              "float": "40.0",
+              "decimal": "40.0",
+              "matches": true
+            }
+          }
+        },
+        "accuracy_float": {
+          "binary_decimal": "40",
+          "difference_pp": "0.0",
+          "algorithms": {
+            "ROUND_HALF_UP": {
+              "float": "40.0",
+              "decimal": "40.0",
+              "matches": true
+            },
+            "ROUND_HALF_EVEN": {
+              "float": "40.0",
+              "decimal": "40.0",
+              "matches": true
+            },
+            "ROUND_DOWN": {
+              "float": "40.0",
+              "decimal": "40.0",
+              "matches": true
+            }
+          }
+        }
+      },
+      "weighting_identity": {
+        "task_mean_exact": "40",
+        "trial_mean_exact": "40",
+        "matches": true
+      }
+    }
+  },
+  "mirrors": {
+    "Astra": {
+      "verdict": "一致",
+      "status": "completed",
+      "raw_fields": {
+        "sourceModelId": "openai-gpt-6-astra-codex",
+        "model": "GPT-6 Astra",
+        "harness": "Codex",
+        "reasoningEffort": "max",
+        "externalUrl": "https://www.terminal-bench-science.ai/"
+      },
+      "provenance": {
+        "kind": "mirror",
+        "total": 17,
+        "text": "Every row is mirrored from Terminal-Bench-Science 0.1 as it publishes it; BenchLM did not re-run these results.",
+        "sourceUrl": "https://www.terminal-bench-science.ai/"
+      },
+      "score_raw_string": "68.1",
+      "official_quantized": "68.1",
+      "mirror_quantized": "68.1",
+      "field_checks": {
+        "sourceModelId": true,
+        "model": true,
+        "harness": true,
+        "reasoningEffort": true,
+        "externalUrl": true,
+        "provenance.kind": true,
+        "provenance.total": true,
+        "provenance.text": true,
+        "provenance.sourceUrl": true,
+        "provenance.key_set": true,
+        "provenance.total_integer": true,
+        "score_quantized": true
+      },
+      "snapshot_date": "October 7, 2026 snapshot"
+    },
+    "Fable": {
+      "verdict": "一致",
+      "status": "completed",
+      "raw_fields": {
+        "sourceModelId": "anthropic-fable-5-1-claude-code",
+        "model": "Claude Fable 5.1",
+        "harness": "Claude Code",
+        "reasoningEffort": "max",
+        "externalUrl": "https://www.terminal-bench-science.ai/"
+      },
+      "provenance": {
+        "kind": "mirror",
+        "total": 17,
+        "text": "Every row is mirrored from Terminal-Bench-Science 0.1 as it publishes it; BenchLM did not re-run these results.",
+        "sourceUrl": "https://www.terminal-bench-science.ai/"
+      },
+      "score_raw_string": "40",
+      "official_quantized": "40.0",
+      "mirror_quantized": "40.0",
+      "field_checks": {
+        "sourceModelId": true,
+        "model": true,
+        "harness": true,
+        "reasoningEffort": true,
+        "externalUrl": true,
+        "provenance.kind": true,
+        "provenance.total": true,
+        "provenance.text": true,
+        "provenance.sourceUrl": true,
+        "provenance.key_set": true,
+        "provenance.total_integer": true,
+        "score_quantized": true
+      },
+      "snapshot_date": "October 7, 2026 snapshot"
+    }
+  },
+  "claims": {
+    "S1": {
+      "record": "S1",
+      "system": "Astra",
+      "display": "63",
+      "status": "not_read",
+      "facts": {
+        "model": {
+          "state": "缺失",
+          "literal": null
+        },
+        "agent": {
+          "state": "缺失",
+          "literal": null
+        },
+        "effort_literal": {
+          "state": "缺失",
+          "literal": null
+        },
+        "effort_operation": {
+          "state": "缺失",
+          "literal": null
+        },
+        "trials": {
+          "state": "缺失",
+          "literal": null
+        },
+        "metric_formula": {
+          "state": "缺失",
+          "literal": null
+        },
+        "dataset_version": {
+          "state": "缺失",
+          "literal": null
+        },
+        "run_identity": {
+          "state": "缺失",
+          "literal": null
+        }
+      },
+      "source": {
+        "file": null,
+        "url": "https://x.com/i/status/2103310123699720508",
+        "sha256": null,
+        "http_status": null,
+        "input_kind": "not_read",
+        "extraction_path": null,
+        "hit_strings": [],
+        "date_field": null,
+        "date_type": "unknown",
+        "fetched_at_utc": null,
+        "primary_support": false
+      },
+      "main_label": "来源未完整披露",
+      "comparison": null
+    },
+    "S4": {
+      "record": "S4",
+      "system": "Astra",
+      "display": "68.1",
+      "status": "completed",
+      "facts": {
+        "model": {
+          "state": "与官方相同",
+          "literal": "GPT-6 Astra"
+        },
+        "agent": {
+          "state": "与官方相同",
+          "literal": "Codex"
+        },
+        "effort_literal": {
+          "state": "已见字面",
+          "literal": "max"
+        },
+        "effort_operation": {
+          "state": "与官方相同",
+          "literal": "max"
+        },
+        "trials": {
+          "state": "与官方相同",
+          "literal": 210
+        },
+        "metric_formula": {
+          "state": "与官方相同",
+          "literal": "pass@1"
+        },
+        "dataset_version": {
+          "state": "与官方相同",
+          "literal": "2b817f26-dc4f-4477-8032-2218dcc553b5"
+        },
+        "run_identity": {
+          "state": "与官方相同",
+          "literal": "76867ebc-8f35-43c5-a8b0-0cee9db46c96"
+        }
+      },
+      "main_label": "一致",
+      "comparison": "official Astra exact mean",
+      "N_same_document": 210,
+      "source": {
+        "file": "science_board_v01.json",
+        "url": "https://www.terminal-bench-science.ai/api/leaderboard?package=terminal-bench-science%2Fterminal-bench-science&name=v0-1-eval",
+        "sha256": "86e6278ca64da88b69c1efd6059a33248bd300f27673098f60184286b470c4a7",
+        "http_status": 200,
+        "input_kind": "http_bytes",
+        "extraction_path": "rows[id=76867ebc-8f35-43c5-a8b0-0cee9db46c96].metrics.display_accuracy",
+        "hit_strings": [
+          "**68.1%** +/- 3.2%"
+        ],
+        "date_field": {
+          "created_at": "2026-09-22T11:45:58.377345+00:00",
+          "updated_at": "2026-09-22T11:46:04.426644+00:00"
+        },
+        "date_type": "leaderboard row timestamps",
+        "fetched_at_utc": "2026-10-10T00:24:00.008949+00:00",
+        "primary_support": true
+      }
+    },
+    "S7": {
+      "record": "S7",
+      "system": "Fable",
+      "display": "40.0",
+      "status": "completed",
+      "facts": {
+        "model": {
+          "state": "与官方相同",
+          "literal": "Fable 5.1"
+        },
+        "agent": {
+          "state": "与官方相同",
+          "literal": "Claude Code"
+        },
+        "effort_literal": {
+          "state": "已见字面",
+          "literal": "max"
+        },
+        "effort_operation": {
+          "state": "与官方相同",
+          "literal": "max"
+        },
+        "trials": {
+          "state": "与官方相同",
+          "literal": 210
+        },
+        "metric_formula": {
+          "state": "与官方相同",
+          "literal": "pass@1"
+        },
+        "dataset_version": {
+          "state": "与官方相同",
+          "literal": "2b817f26-dc4f-4477-8032-2218dcc553b5"
+        },
+        "run_identity": {
+          "state": "与官方相同",
+          "literal": "1264a994-632f-4742-a143-a848a6ad4114"
+        }
+      },
+      "main_label": "一致",
+      "comparison": "official Fable exact mean",
+      "N_same_document": 210,
+      "source": {
+        "file": "science_board_v01.json",
+        "url": "https://www.terminal-bench-science.ai/api/leaderboard?package=terminal-bench-science%2Fterminal-bench-science&name=v0-1-eval",
+        "sha256": "86e6278ca64da88b69c1efd6059a33248bd300f27673098f60184286b470c4a7",
+        "http_status": 200,
+        "input_kind": "http_bytes",
+        "extraction_path": "rows[id=1264a994-632f-4742-a143-a848a6ad4114].metrics.display_accuracy",
+        "hit_strings": [
+          "**40.0%** +/- 3.4%"
+        ],
+        "date_field": {
+          "created_at": "2026-09-13T19:56:07.340022+00:00",
+          "updated_at": "2026-09-16T13:45:27.369938+00:00"
+        },
+        "date_type": "leaderboard row timestamps",
+        "fetched_at_utc": "2026-10-10T00:24:00.008949+00:00",
+        "primary_support": true
+      }
+    },
+    "S1a": {
+      "record": "S1a",
+      "system": "Astra",
+      "display": "63.3",
+      "status": "completed",
+      "facts": {
+        "model": {
+          "state": "已见字面",
+          "literal": "GPT-6 Astra (Max)"
+        },
+        "agent": {
+          "state": "与官方不同",
+          "literal": "mini-swe-agent"
+        },
+        "effort_literal": {
+          "state": "已见字面",
+          "literal": "Max"
+        },
+        "effort_operation": {
+          "state": "缺失",
+          "literal": null
+        },
+        "trials": {
+          "state": "与官方相同",
+          "literal": "three repeats per task"
+        },
+        "metric_formula": {
+          "state": "与官方相同",
+          "literal": "pass@1 averaged over three repeats per task"
+        },
+        "dataset_version": {
+          "state": "缺失",
+          "literal": null
+        },
+        "run_identity": {
+          "state": "缺失",
+          "literal": null
+        }
+      },
+      "N_same_document": 210,
+      "embedded_ratio": "0.633333333333333",
+      "public_version_literal": "Terminal-Bench-Science 0.1.0",
+      "operation_ambiguity": null,
+      "comparison": "S1a vs official Astra",
+      "source": {
+        "file": "aa_science.html",
+        "url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
+        "sha256": "a0b7ea406acce84d9857e75846a16f3f529ed3e513192f3c851f413242903029",
+        "http_status": 200,
+        "input_kind": "http_bytes",
+        "extraction_path": "innermost summary/method div; self.__next_f.push RSC exact id/slug",
+        "hit_strings": [
+          "GPT-6 Astra (Max)",
+          "with a score of 63.3%",
+          "mini-swe-agent",
+          "three repeats per task",
+          "70-task",
+          "0.633333333333333"
+        ],
+        "date_field": "2026-09-03",
+        "date_type": "model release date; not evaluation date",
+        "fetched_at_utc": "2026-10-10T00:22:38.433091+00:00",
+        "primary_support": true
+      },
+      "identity_evidence": {
+        "official_row_id_present": false,
+        "official_leaderboard_id_present": false,
+        "dataset_version_id_present": false,
+        "release_commit_present": false,
+        "release_v0_1_0_present": true,
+        "scope": "same frozen source; Vals restricted to historical announcement; PDF section 8.7"
+      },
+      "classification": {
+        "label": "来源未完整披露",
+        "first_priority": 1,
+        "missing_required_fields": [
+          "effort_operation",
+          "dataset_version",
+          "run_identity"
+        ],
+        "extraction_failed": false,
+        "interpretation": "priorities 2–5 not applicable"
+      },
+      "main_label": "来源未完整披露"
+    },
+    "S2": {
+      "record": "S2",
+      "system": "Astra",
+      "display": "64.6",
+      "status": "completed",
+      "facts": {
+        "model": {
+          "state": "已见字面",
+          "literal": "GPT-6 Astra"
+        },
+        "agent": {
+          "state": "缺失",
+          "literal": null
+        },
+        "effort_literal": {
+          "state": "已见字面",
+          "literal": "maximum at any effort"
+        },
+        "effort_operation": {
+          "state": "缺失",
+          "literal": null
+        },
+        "trials": {
+          "state": "缺失",
+          "literal": null
+        },
+        "metric_formula": {
+          "state": "缺失",
+          "literal": null
+        },
+        "dataset_version": {
+          "state": "缺失",
+          "literal": null
+        },
+        "run_identity": {
+          "state": "缺失",
+          "literal": null
+        }
+      },
+      "comparison": "S2 vs official Astra",
+      "operation_ambiguity": [
+        "best fixed effort over the benchmark",
+        "per-task cross-effort oracle envelope"
+      ],
+      "source": {
+        "file": "openai_web_rendered.json",
+        "url": "https://openai.com/index/gpt-6-astra/",
+        "sha256": "c4a1fa107a6ff7cbb12cac06705701a75bc7bde7a61a549e91b5fb87c85bdd4d",
+        "http_status": null,
+        "input_kind": "rendered_record",
+        "extraction_path": "tool_result L182/L183/L224",
+        "hit_strings": [
+          "GPT-6 Astra",
+          "64.6%",
+          "maximum at any effort"
+        ],
+        "date_field": "2026-10-10 00:25:38 UTC",
+        "date_type": "rendered retrieval time; publication/run time unknown",
+        "fetched_at_utc": "2026-10-10T00:25:38+00:00",
+        "primary_support": false
+      },
+      "original_http_status": 403,
+      "identity_evidence": {
+        "official_row_id_present": false,
+        "official_leaderboard_id_present": false,
+        "dataset_version_id_present": false,
+        "release_commit_present": false,
+        "release_v0_1_0_present": false,
+        "scope": "same frozen source; Vals restricted to historical announcement; PDF section 8.7"
+      },
+      "classification": {
+        "label": "来源未完整披露",
+        "first_priority": 1,
+        "missing_required_fields": [
+          "agent",
+          "effort_operation",
+          "trials",
+          "metric_formula",
+          "dataset_version",
+          "run_identity"
+        ],
+        "extraction_failed": false,
+        "interpretation": "priorities 2–5 not applicable"
+      },
+      "main_label": "来源未完整披露"
+    },
+    "S3": {
+      "record": "S3",
+      "system": "Astra",
+      "display": "65.71",
+      "status": "completed",
+      "facts": {
+        "model": {
+          "state": "已见字面",
+          "literal": "GPT-6 Astra"
+        },
+        "agent": {
+          "state": "缺失",
+          "literal": null
+        },
+        "effort_literal": {
+          "state": "缺失",
+          "literal": null
+        },
+        "effort_operation": {
+          "state": "缺失",
+          "literal": null
+        },
+        "trials": {
+          "state": "缺失",
+          "literal": null
+        },
+        "metric_formula": {
+          "state": "缺失",
+          "literal": null
+        },
+        "dataset_version": {
+          "state": "缺失",
+          "literal": null
+        },
+        "run_identity": {
+          "state": "缺失",
+          "literal": null
+        }
+      },
+      "comparison": "S3 vs official Astra",
+      "partial_method_literals": [
+        "one harness fixed",
+        "pass@1"
+      ],
+      "N_same_document": null,
+      "source": {
+        "file": "vals_home.html",
+        "url": "https://www.vals.ai/home",
+        "sha256": "d732d101905e085a8340afc2499efbf08f21e95f5af9fc3af42d826e721440c6",
+        "http_status": 200,
+        "input_kind": "http_bytes",
+        "extraction_path": "div.hidden.update-content[data-update-slug=2026-09-11-terminal-bench-science]; ancestor astro-island props updates.data.date",
+        "hit_strings": [
+          "GPT-6 Astra",
+          "65.71%",
+          "one harness fixed",
+          "pass@1"
+        ],
+        "date_field": "09/11/2026",
+        "date_type": "announcement date",
+        "fetched_at_utc": "2026-10-10T00:22:38.430302+00:00",
+        "primary_support": true
+      },
+      "identity_evidence": {
+        "official_row_id_present": false,
+        "official_leaderboard_id_present": false,
+        "dataset_version_id_present": false,
+        "release_commit_present": false,
+        "release_v0_1_0_present": false,
+        "scope": "same frozen source; Vals restricted to historical announcement; PDF section 8.7"
+      },
+      "classification": {
+        "label": "来源未完整披露",
+        "first_priority": 1,
+        "missing_required_fields": [
+          "agent",
+          "effort_operation",
+          "trials",
+          "metric_formula",
+          "dataset_version",
+          "run_identity"
+        ],
+        "extraction_failed": false,
+        "interpretation": "priorities 2–5 not applicable"
+      },
+      "main_label": "来源未完整披露"
+    },
+    "S6": {
+      "record": "S6",
+      "system": "Fable",
+      "display": "34.29",
+      "status": "completed",
+      "facts": {
+        "model": {
+          "state": "已见字面",
+          "literal": "Claude Fable 5.1"
+        },
+        "agent": {
+          "state": "缺失",
+          "literal": null
+        },
+        "effort_literal": {
+          "state": "缺失",
+          "literal": null
+        },
+        "effort_operation": {
+          "state": "缺失",
+          "literal": null
+        },
+        "trials": {
+          "state": "缺失",
+          "literal": null
+        },
+        "metric_formula": {
+          "state": "缺失",
+          "literal": null
+        },
+        "dataset_version": {
+          "state": "缺失",
+          "literal": null
+        },
+        "run_identity": {
+          "state": "缺失",
+          "literal": null
+        }
+      },
+      "comparison": "S6 vs official Fable",
+      "partial_method_literals": [
+        "one harness fixed",
+        "pass@1"
+      ],
+      "N_same_document": null,
+      "source": {
+        "file": "vals_home.html",
+        "url": "https://www.vals.ai/home",
+        "sha256": "d732d101905e085a8340afc2499efbf08f21e95f5af9fc3af42d826e721440c6",
+        "http_status": 200,
+        "input_kind": "http_bytes",
+        "extraction_path": "div.hidden.update-content[data-update-slug=2026-09-11-terminal-bench-science]; ancestor astro-island props updates.data.date",
+        "hit_strings": [
+          "Claude Fable 5.1",
+          "34.29%",
+          "one harness fixed",
+          "pass@1"
+        ],
+        "date_field": "09/11/2026",
+        "date_type": "announcement date",
+        "fetched_at_utc": "2026-10-10T00:22:38.430302+00:00",
+        "primary_support": true
+      },
+      "identity_evidence": {
+        "official_row_id_present": false,
+        "official_leaderboard_id_present": false,
+        "dataset_version_id_present": false,
+        "release_commit_present": false,
+        "release_v0_1_0_present": false,
+        "scope": "same frozen source; Vals restricted to historical announcement; PDF section 8.7"
+      },
+      "classification": {
+        "label": "来源未完整披露",
+        "first_priority": 1,
+        "missing_required_fields": [
+          "agent",
+          "effort_operation",
+          "trials",
+          "metric_formula",
+          "dataset_version",
+          "run_identity"
+        ],
+        "extraction_failed": false,
+        "interpretation": "priorities 2–5 not applicable"
+      },
+      "main_label": "来源未完整披露"
+    },
+    "S5": {
+      "record": "S5",
+      "system": "Fable",
+      "display": "52.6",
+      "status": "completed",
+      "facts": {
+        "model": {
+          "state": "已见字面",
+          "literal": "Claude Fable 5.1"
+        },
+        "agent": {
+          "state": "已见字面",
+          "literal": "Claude Code --bare"
+        },
+        "effort_literal": {
+          "state": "已见字面",
+          "literal": "maximum effort"
+        },
+        "effort_operation": {
+          "state": "与官方相同",
+          "literal": "maximum effort"
+        },
+        "trials": {
+          "state": "与官方不同",
+          "literal": "10 trials per task (700 trials)"
+        },
+        "metric_formula": {
+          "state": "与官方相同",
+          "literal": "averaged over 10 trials per task"
+        },
+        "dataset_version": {
+          "state": "缺失",
+          "literal": null
+        },
+        "run_identity": {
+          "state": "缺失",
+          "literal": null
+        }
+      },
+      "N_same_document": 700,
+      "comparison": "S5 vs official Fable",
+      "method_hit_strings": [
+        "Claude Code in --bare mode",
+        "maximum thinking effort"
+      ],
+      "source": {
+        "file": "anthropic_systemcard.html",
+        "url": "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card",
+        "sha256": "b0d59edc7a60eef32a879c13d713cce60c3fefd7e6b5183afdc8b835af3c8c39",
+        "http_status": 200,
+        "input_kind": "http_bytes",
+        "extraction_path": "PDF bytes -> pdftotext -layout -> section 8.7 unique sentence",
+        "hit_strings": [
+          "Claude Fable 5.1 scored 52.6% averaged over 10 trials per task (700 trials)",
+          "Claude Code in --bare mode",
+          "maximum thinking effort"
+        ],
+        "date_field": "Tue, 01 Sep 2026 17:40:21 GMT",
+        "date_type": "HTTP Last-Modified; not proof of publication/run date",
+        "fetched_at_utc": "2026-10-10T00:24:50.170927+00:00",
+        "primary_support": true
+      },
+      "identity_evidence": {
+        "official_row_id_present": false,
+        "official_leaderboard_id_present": false,
+        "dataset_version_id_present": false,
+        "release_commit_present": false,
+        "release_v0_1_0_present": false,
+        "scope": "same frozen source; Vals restricted to historical announcement; PDF section 8.7"
+      },
+      "classification": {
+        "label": "来源未完整披露",
+        "first_priority": 1,
+        "missing_required_fields": [
+          "dataset_version",
+          "run_identity"
+        ],
+        "extraction_failed": false,
+        "interpretation": "priorities 2–5 not applicable"
+      },
+      "main_label": "来源未完整披露"
+    }
+  },
+  "rational_compatibility": [
+    {
+      "record": "S1a",
+      "x": "63.3",
+      "d": 1,
+      "N": 210,
+      "denominator_qualification": "same original document",
+      "numerators": [
+        133
+      ],
+      "status": "completed",
+      "same_document_N": 210
+    },
+    {
+      "record": "S3",
+      "x": "65.71",
+      "d": 2,
+      "N": 70,
+      "denominator_qualification": "assumed N; not written in announcement",
+      "numerators": [
+        46
+      ],
+      "status": "completed",
+      "same_document_N": null
+    },
+    {
+      "record": "S3",
+      "x": "65.71",
+      "d": 2,
+      "N": 210,
+      "denominator_qualification": "assumed N; not written in announcement",
+      "numerators": [
+        138
+      ],
+      "status": "completed",
+      "same_document_N": null
+    },
+    {
+      "record": "S6",
+      "x": "34.29",
+      "d": 2,
+      "N": 70,
+      "denominator_qualification": "assumed N; not written in announcement",
+      "numerators": [
+        24
+      ],
+      "status": "completed",
+      "same_document_N": null
+    },
+    {
+      "record": "S6",
+      "x": "34.29",
+      "d": 2,
+      "N": 210,
+      "denominator_qualification": "assumed N; not written in announcement",
+      "numerators": [
+        72
+      ],
+      "status": "completed",
+      "same_document_N": null
+    },
+    {
+      "record": "S5",
+      "x": "52.6",
+      "d": 1,
+      "N": 700,
+      "denominator_qualification": "same original document",
+      "numerators": [
+        368
+      ],
+      "status": "completed",
+      "same_document_N": 700
+    },
+    {
+      "record": "S4",
+      "x": "68.1",
+      "d": 1,
+      "N": 210,
+      "denominator_qualification": "same original document",
+      "numerators": [
+        143
+      ],
+      "status": "completed",
+      "same_document_N": 210
+    },
+    {
+      "record": "S7",
+      "x": "40.0",
+      "d": 1,
+      "N": 210,
+      "denominator_qualification": "same original document",
+      "numerators": [
+        84
+      ],
+      "status": "completed",
+      "same_document_N": 210
+    }
+  ],
+  "not_reconstructed": {
+    "S1": "N unknown; original unread",
+    "S2": "N unknown; rendered source only"
+  },
+  "rounding_inverse_images": {
+    "S1_vs_S1a_existence_only": {
+      "ROUND_HALF_UP": {
+        "x_interval": [
+          "62.5",
+          "63.5",
+          true,
+          false
+        ],
+        "y_interval": [
+          "63.25",
+          "63.35",
+          true,
+          false
+        ],
+        "intersects": true
+      },
+      "ROUND_HALF_EVEN": {
+        "x_interval": [
+          "62.5",
+          "63.5",
+          false,
+          false
+        ],
+        "y_interval": [
+          "63.25",
+          "63.35",
+          false,
+          false
+        ],
+        "intersects": true
+      },
+      "ROUND_DOWN": {
+        "x_interval": [
+          "63",
+          "64",
+          true,
+          false
+        ],
+        "y_interval": [
+          "63.3",
+          "63.4",
+          true,
+          false
+        ],
+        "intersects": true
+      }
+    },
+    "S1a_vs_official": {
+      "ROUND_HALF_UP": {
+        "x_interval": [
+          "63.25",
+          "63.35",
+          true,
+          false
+        ],
+        "y_interval": [
+          "68.05",
+          "68.15",
+          true,
+          false
+        ],
+        "intersects": false
+      },
+      "ROUND_HALF_EVEN": {
+        "x_interval": [
+          "63.25",
+          "63.35",
+          false,
+          false
+        ],
+        "y_interval": [
+          "68.05",
+          "68.15",
+          false,
+          false
+        ],
+        "intersects": false
+      },
+      "ROUND_DOWN": {
+        "x_interval": [
+          "63.3",
+          "63.4",
+          true,
+          false
+        ],
+        "y_interval": [
+          "68.1",
+          "68.2",
+          true,
+          false
+        ],
+        "intersects": false
+      }
+    },
+    "S2_vs_official": {
+      "ROUND_HALF_UP": {
+        "x_interval": [
+          "64.55",
+          "64.65",
+          true,
+          false
+        ],
+        "y_interval": [
+          "68.05",
+          "68.15",
+          true,
+          false
+        ],
+        "intersects": false
+      },
+      "ROUND_HALF_EVEN": {
+        "x_interval": [
+          "64.55",
+          "64.65",
+          true,
+          true
+        ],
+        "y_interval": [
+          "68.05",
+          "68.15",
+          false,
+          false
+        ],
+        "intersects": false
+      },
+      "ROUND_DOWN": {
+        "x_interval": [
+          "64.6",
+          "64.7",
+          true,
+          false
+        ],
+        "y_interval": [
+          "68.1",
+          "68.2",
+          true,
+          false
+        ],
+        "intersects": false
+      }
+    },
+    "S3_vs_official": {
+      "ROUND_HALF_UP": {
+        "x_interval": [
+          "65.705",
+          "65.715",
+          true,
+          false
+        ],
+        "y_interval": [
+          "68.05",
+          "68.15",
+          true,
+          false
+        ],
+        "intersects": false
+      },
+      "ROUND_HALF_EVEN": {
+        "x_interval": [
+          "65.705",
+          "65.715",
+          false,
+          false
+        ],
+        "y_interval": [
+          "68.05",
+          "68.15",
+          false,
+          false
+        ],
+        "intersects": false
+      },
+      "ROUND_DOWN": {
+        "x_interval": [
+          "65.71",
+          "65.72",
+          true,
+          false
+        ],
+        "y_interval": [
+          "68.1",
+          "68.2",
+          true,
+          false
+        ],
+        "intersects": false
+      }
+    },
+    "S5_vs_official": {
+      "ROUND_HALF_UP": {
+        "x_interval": [
+          "52.55",
+          "52.65",
+          true,
+          false
+        ],
+        "y_interval": [
+          "39.95",
+          "40.05",
+          true,
+          false
+        ],
+        "intersects": false
+      },
+      "ROUND_HALF_EVEN": {
+        "x_interval": [
+          "52.55",
+          "52.65",
+          true,
+          true
+        ],
+        "y_interval": [
+          "39.95",
+          "40.05",
+          true,
+          true
+        ],
+        "intersects": false
+      },
+      "ROUND_DOWN": {
+        "x_interval": [
+          "52.6",
+          "52.7",
+          true,
+          false
+        ],
+        "y_interval": [
+          "40.0",
+          "40.1",
+          true,
+          false
+        ],
+        "intersects": false
+      }
+    },
+    "S6_vs_official": {
+      "ROUND_HALF_UP": {
+        "x_interval": [
+          "34.285",
+          "34.295",
+          true,
+          false
+        ],
+        "y_interval": [
+          "39.95",
+          "40.05",
+          true,
+          false
+        ],
+        "intersects": false
+      },
+      "ROUND_HALF_EVEN": {
+        "x_interval": [
+          "34.285",
+          "34.295",
+          false,
+          false
+        ],
+        "y_interval": [
+          "39.95",
+          "40.05",
+          true,
+          true
+        ],
+        "intersects": false
+      },
+      "ROUND_DOWN": {
+        "x_interval": [
+          "34.29",
+          "34.30",
+          true,
+          false
+        ],
+        "y_interval": [
+          "40.0",
+          "40.1",
+          true,
+          false
+        ],
+        "intersects": false
+      }
+    },
+    "scope": "allowed display algorithms only; does not explain unidentified external runs or unread S1"
+  },
+  "AA_embedded_ratio_check": {
+    "raw": "0.633333333333333",
+    "compatible_numerator": 133,
+    "same_half_up_15_places": true,
+    "exactly_equal_by_integer_cross_product": false,
+    "left_cross_product": 132999999999999930,
+    "right_cross_product": 133000000000000000,
+    "not_used_to_explain_S1": true
+  },
+  "sensitivity": {
+    "Astra": {
+      "domains": {
+        "earth": {
+          "K": 19,
+          "N": 24,
+          "tasks": 8,
+          "percentage": "79.166666666666666666666666666666666666666666666667",
+          "official_counts_match": true,
+          "official_accuracy_matches": true
+        },
+        "engineering": {
+          "K": 19,
+          "N": 27,
+          "tasks": 9,
+          "percentage": "70.370370370370370370370370370370370370370370370370",
+          "official_counts_match": true,
+          "official_accuracy_matches": true
+        },
+        "life": {
+          "K": 34,
+          "N": 57,
+          "tasks": 19,
+          "percentage": "59.649122807017543859649122807017543859649122807018",
+          "official_counts_match": true,
+          "official_accuracy_matches": true
+        },
+        "mathematical": {
+          "K": 41,
+          "N": 51,
+          "tasks": 17,
+          "percentage": "80.392156862745098039215686274509803921568627450980",
+          "official_counts_match": true,
+          "official_accuracy_matches": true
+        },
+        "physical": {
+          "K": 30,
+          "N": 51,
+          "tasks": 17,
+          "percentage": "58.823529411764705882352941176470588235294117647059",
+          "official_counts_match": true,
+          "official_accuracy_matches": true
+        }
+      },
+      "five_domain_equal_weight_exact": "1215365/17442",
+      "five_domain_equal_weight_percentage": "69.680369223712876963650957459006994610709780988419",
+      "jobs": {
+        "777e55da-9d54-50e7-b609-bcdab212af0c": {
+          "K": 50,
+          "N": 70,
+          "percentage": "71.428571428571428571428571428571428571428571428571"
+        },
+        "ab6def94-4c96-5a11-ae62-90bb8c0fb1b7": {
+          "K": 47,
+          "N": 70,
+          "percentage": "67.142857142857142857142857142857142857142857142857"
+        },
+        "cf649454-fc49-586d-94bc-4eaed9a2e68e": {
+          "K": 46,
+          "N": 70,
+          "percentage": "65.714285714285714285714285714285714285714285714286"
+        }
+      },
+      "three_job_mean_exact": "1430/21",
+      "pass_at_3": {
+        "K_tasks": 57,
+        "N_tasks": 70,
+        "percentage": "81.428571428571428571428571428571428571428571428571"
+      }
+    },
+    "Fable": {
+      "domains": {
+        "earth": {
+          "K": 9,
+          "N": 24,
+          "tasks": 8,
+          "percentage": "37.500",
+          "official_counts_match": true,
+          "official_accuracy_matches": true
+        },
+        "engineering": {
+          "K": 13,
+          "N": 27,
+          "tasks": 9,
+          "percentage": "48.148148148148148148148148148148148148148148148148",
+          "official_counts_match": true,
+          "official_accuracy_matches": true
+        },
+        "life": {
+          "K": 22,
+          "N": 57,
+          "tasks": 19,
+          "percentage": "38.596491228070175438596491228070175438596491228070",
+          "official_counts_match": true,
+          "official_accuracy_matches": true
+        },
+        "mathematical": {
+          "K": 21,
+          "N": 51,
+          "tasks": 17,
+          "percentage": "41.176470588235294117647058823529411764705882352941",
+          "official_counts_match": true,
+          "official_accuracy_matches": true
+        },
+        "physical": {
+          "K": 19,
+          "N": 51,
+          "tasks": 17,
+          "percentage": "37.254901960784313725490196078431372549019607843137",
+          "official_counts_match": true,
+          "official_accuracy_matches": true
+        }
+      },
+      "five_domain_equal_weight_exact": "707015/17442",
+      "five_domain_equal_weight_percentage": "40.535202385047586285976378855635821580094025914459",
+      "jobs": {
+        "0c8dbc4e-201f-5df1-8b40-b7e1659ecdb0": {
+          "K": 24,
+          "N": 70,
+          "percentage": "34.285714285714285714285714285714285714285714285714"
+        },
+        "dbadb48c-cf57-510a-9221-6ac9e7fb899a": {
+          "K": 26,
+          "N": 70,
+          "percentage": "37.142857142857142857142857142857142857142857142857"
+        },
+        "ff464546-33e2-51cc-82b9-9752481a3224": {
+          "K": 34,
+          "N": 70,
+          "percentage": "48.571428571428571428571428571428571428571428571429"
+        }
+      },
+      "three_job_mean_exact": "40",
+      "pass_at_3": {
+        "K_tasks": 43,
+        "N_tasks": 70,
+        "percentage": "61.428571428571428571428571428571428571428571428571"
+      }
+    }
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "rng": "Generator(PCG64)",
+    "percentile_method": "linear",
+    "primary_seed": 2026101001,
+    "stratified_seed": 2026101002,
+    "primary_design": "non-stratified task clusters, 70 draws, paired systems",
+    "stratified_design": "earth/engineering/life/mathematical/physical, original domain sizes, paired systems",
+    "status": "completed",
+    "primary": {
+      "Astra": [
+        59.04761904761905,
+        77.14285714285715
+      ],
+      "Fable": [
+        30.952380952380953,
+        49.047619047619044
+      ],
+      "Astra_minus_Fable_pp": [
+        18.095238095238095,
+        38.095238095238095
+      ]
+    },
+    "stratified_sensitivity": {
+      "Astra": [
+        59.04761904761905,
+        76.66666666666667
+      ],
+      "Fable": [
+        31.428571428571427,
+        49.047619047619044
+      ],
+      "Astra_minus_Fable_pp": [
+        18.571428571428562,
+        38.09523809523809
+      ]
+    },
+    "replicate_sha256": {
+      "primary": "211821f223b6505c1b67d0a4f835e78dfac9a7e3d53249ea037366a340c7b99e",
+      "stratified": "98d5f2fe68c36fd2f1c01ffe423a4b5348b7e300471c86d69d8d241f8bc5b96a"
+    },
+    "replicate_digest_format": "10000 by 2 little-endian float64 percentages, Astra then Fable, C order"
+  },
+  "official_difference_pp": "28.095238095238095238095238095238095238095238095238",
+  "supporting_checks": {
+    "release_and_task_names": {
+      "tag_commit": "f81afac4f11048e77a15dfc8fb1dbfb897fea0ce",
+      "tree_commit": "f81afac4f11048e77a15dfc8fb1dbfb897fea0ce",
+      "release_commit_matches": true,
+      "tree_scope": "tasks/**/task.toml; CI checks, archive and tooling excluded",
+      "unique_task_toml_count": 70,
+      "task_names_match": true,
+      "task_byte_identity_verified": false
+    },
+    "single_trial_example": {
+      "trial_id": "0156fedf-e8cc-5e04-bf3f-7b9e1aa435ff",
+      "codex_version": "0.155.1",
+      "verifier_disable": false,
+      "environment_mode": "separate",
+      "timeout_multiplier": 1,
+      "scope": "one Astra trial only; no system-wide inference; no labels depend on these fields",
+      "Fable_detail_http_status": 404
+    },
+    "current_Vals_background": {
+      "Fable_40_00": "数值相同、运行身份未建立",
+      "used_as_mirror": false,
+      "used_to_fill_history": false,
+      "basis": "already disclosed feasibility background; not an endpoint"
+    },
+    "tb_news_used_in_endpoints": false
+  },
+  "seven_claim_label_counts": {
+    "来源未完整披露": 5,
+    "一致": 2
+  },
+  "primary_support_count": 5,
+  "primary_support_denominator": 7,
+  "no_model_reruns": true,
+  "uncompleted_items": [
+    "S1 original unread",
+    "S2 original HTTP403",
+    "external trial records and run identities unavailable",
+    "complete task-byte identity and grading not verified",
+    "Fable trial detail HTTP404",
+    "first-public-push event timestamp not independently recovered"
+  ],
+  "finished_at_utc": "2026-10-10T01:50:18.762029+00:00"
+}

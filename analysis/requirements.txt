@@ -1,0 +1,5 @@
+# Interpreter: CPython 3.13.5
+numpy==2.5.3
+beautifulsoup4==4.15.0
+matplotlib==3.11.2
+# External PDF tool: Poppler/pdftotext 25.03.0

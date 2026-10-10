@@ -1,0 +1,11 @@
+{
+  "started_at_utc": "2026-10-10T01:50:16.571960+00:00",
+  "finished_at_utc": "2026-10-10T01:50:18.762029+00:00",
+  "code_freeze_time_utc": "2026-10-10T01:50:16.410189+00:00",
+  "status": "completed",
+  "all_AP_matches": true,
+  "execution_epoch": 3,
+  "no_network_in_analysis": true,
+  "cache_writes": false,
+  "code_verified_before_and_after": true
+}

@@ -1,0 +1,20 @@
+{
+  "repository_url": "https://github.com/empac666/ai4science-recheck-tbscience-scores",
+  "protocol_lock_commit": "acd553f7c989c1141424f8de33515727b4a61086",
+  "public_commit_url": "https://github.com/empac666/ai4science-recheck-tbscience-scores/commit/acd553f7c989c1141424f8de33515727b4a61086",
+  "public_repository_verified": true,
+  "github_api_commit_verified": true,
+  "main_branch_at_verification": "acd553f7c989c1141424f8de33515727b4a61086",
+  "local_base_commit": "acd553f7c989c1141424f8de33515727b4a61086",
+  "verified_at_utc": "2026-10-10T01:46:12.061349+00:00",
+  "verification_method": "read-only GitHub repository, commit and branch metadata endpoints; no leaderboard fetched",
+  "commit_author_time_utc": "2026-10-10T01:29:25Z",
+  "commit_committer_time_utc": "2026-10-10T01:29:25Z",
+  "first_public_push_timestamp": null,
+  "timestamp_limitation": "Public availability of the locked commit is verified. First public push event time was not independently recovered; commit dates are not substituted.",
+  "locked_document_sha256": {
+    "PREREG.md": "24e8eff613e537d07c304ece15a7f960b141557217d5fefb3727ed43a96333bf",
+    "feasibility.md": "e3c1b4083bf4b8406925520d93bcada49e57572fe51413be96d1584256236ec9",
+    "INPUTS_SHA256SUMS": "a5e93820d68fe781aaa5d09b75752782e52966771c54ebb2e40d156238d9497e"
+  }
+}
