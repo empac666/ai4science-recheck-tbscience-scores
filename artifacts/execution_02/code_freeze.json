@@ -1,0 +1,30 @@
+{
+  "frozen_at_utc": "2026-10-10T01:48:02.248445+00:00",
+  "protocol_lock_commit": "acd553f7c989c1141424f8de33515727b4a61086",
+  "scope": "all analysis, tests, and tools Python code; synthetic tests preceded this freeze",
+  "execution_epoch": 2,
+  "prior_epoch_archive": "artifacts/execution_01/",
+  "sha256": {
+    "analysis/__init__.py": "63e9ec20c9891eff1db6eef9ee94b1113f84b24454959972358c50b120e127f5",
+    "analysis/constants.py": "2dda18c6ec647e1dd12a31e61448b5b84f8db07f53f3249d0578d11f22afbe5c",
+    "analysis/environment.py": "8d266216016fef3bb823a93d634f1ea472e31a1a28bc40f322928078e8fd83c0",
+    "analysis/freeze.py": "6f791d2f6777bfed6d6f73e49d4b4e9f0ce536efee243648db1f44cb3556fed5",
+    "analysis/outputs.py": "4735b55b53a5d4c2f47c8046860ca9bb51337a29f79e8187dbcf94b9fcbdfe19",
+    "analysis/path_a.py": "b903271f8d201f06903f5a44f90347df2050d7edce7b6665ed5b88a12a919c1e",
+    "analysis/path_b.py": "4bc7e352aa8b84f98407c2ae8fc6c872a23d187097d1c6afeb0c699dabc097f7",
+    "analysis/predictions.py": "dec5ee19667f8e6b66c6e4a482e0fea93ecc4c9ee68d9f403da8c4fbfed7e9d8",
+    "analysis/run.py": "643abe51d9a09d2b591a31125e5058892f5ef0d308801c3eb7e6d061786d44e4",
+    "analysis/sources.py": "2286786e22b36d0abadb79b2014af2f8f154b4fbbb04b6a6b1b3f133f91d4f02",
+    "analysis/statistics.py": "b7b943597d35f72a866d3fe242eb3b21661d102b656db92e4ad5000c299ba204",
+    "tests/__init__.py": "21555fe5f8a7a2ee684ffd11141fad5e32c03cde6d599904cfc8ab0c023fdd59",
+    "tests/check_artifacts.py": "9ef491170ae4d0ae2984d1eca963368a33057d15e88441d763d5ac159c84ecb0",
+    "tests/test_audit.py": "a5d6700520a32b2dc669381005f8edfd728039fe6b78e700b754286e4d805a69",
+    "tools/audit_rules.py": "15bd2251744c3a9ea28146409d630d36cf9f73b1ccbed55ff2e186a1f86d0143",
+    "tools/fetch_inputs.py": "bd656324685e52763104757e760574b70f8892baf8f43f954677d822db0104a3"
+  },
+  "locked_documents": {
+    "PREREG.md": "24e8eff613e537d07c304ece15a7f960b141557217d5fefb3727ed43a96333bf",
+    "feasibility.md": "e3c1b4083bf4b8406925520d93bcada49e57572fe51413be96d1584256236ec9",
+    "INPUTS_SHA256SUMS": "a5e93820d68fe781aaa5d09b75752782e52966771c54ebb2e40d156238d9497e"
+  }
+}

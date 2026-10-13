@@ -1,0 +1,39 @@
+{
+  "verified_at_utc": "2026-10-10T01:51:14.096374+00:00",
+  "synthetic_tests": {
+    "command": "python3 -m unittest tests.test_audit -v",
+    "tests": 17,
+    "status": "passed"
+  },
+  "artifact_checks": {
+    "command": "python3 -m tests.check_artifacts",
+    "status": "passed",
+    "checks": [
+      "AP-01 through AP-19",
+      "independent CSV recount",
+      "strict mirror metadata",
+      "bootstrap seeds and replicate counts",
+      "draft length limits",
+      "report opening",
+      "locked document bytes",
+      "all pre-execution code hashes"
+    ]
+  },
+  "archived_code_hashes_verified": [
+    "artifacts/execution_01",
+    "artifacts/execution_02"
+  ],
+  "bootstrap_replicate_digests_identical_across_executions": true,
+  "input_cache_writes": false,
+  "third_party_raw_bodies_in_outputs": false,
+  "content_scan": {
+    "text_files_scanned": 95,
+    "prohibited_content_matches": 0
+  },
+  "execution_epoch": 3,
+  "git_diff_check": {
+    "status": "passed",
+    "CSV_line_endings": "RFC 4180 CRLF; Git check recognizes CR at end of line",
+    "command": "git -c core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol diff --cached --check"
+  }
+}

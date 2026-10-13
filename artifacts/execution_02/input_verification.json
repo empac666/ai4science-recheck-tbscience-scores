@@ -1,0 +1,132 @@
+{
+  "verified_at_utc": "2026-10-10T01:48:02.436266+00:00",
+  "checks": [
+    {
+      "file": "science_board_v01.json",
+      "expected_bytes": 493155,
+      "observed_bytes": 493155,
+      "expected_sha256": "86e6278ca64da88b69c1efd6059a33248bd300f27673098f60184286b470c4a7",
+      "observed_sha256": "86e6278ca64da88b69c1efd6059a33248bd300f27673098f60184286b470c4a7",
+      "matches": true,
+      "role": "frozen_input"
+    },
+    {
+      "file": "benchlm_science.html",
+      "expected_bytes": 253414,
+      "observed_bytes": 253414,
+      "expected_sha256": "2704a4ca05d74d00c5c5b40ea9b54a9fdbf511823e56b16dfc7184bdb1a8361a",
+      "observed_sha256": "2704a4ca05d74d00c5c5b40ea9b54a9fdbf511823e56b16dfc7184bdb1a8361a",
+      "matches": true,
+      "role": "frozen_input"
+    },
+    {
+      "file": "vals_home.html",
+      "expected_bytes": 704708,
+      "observed_bytes": 704708,
+      "expected_sha256": "d732d101905e085a8340afc2499efbf08f21e95f5af9fc3af42d826e721440c6",
+      "observed_sha256": "d732d101905e085a8340afc2499efbf08f21e95f5af9fc3af42d826e721440c6",
+      "matches": true,
+      "role": "frozen_input"
+    },
+    {
+      "file": "vals_science.html",
+      "expected_bytes": 110866,
+      "observed_bytes": 110866,
+      "expected_sha256": "109d1a2f99c3da8da8e3c6ec3d6e086de81f1cebf329118e902dec9fa4764aa7",
+      "observed_sha256": "109d1a2f99c3da8da8e3c6ec3d6e086de81f1cebf329118e902dec9fa4764aa7",
+      "matches": true,
+      "role": "frozen_input"
+    },
+    {
+      "file": "anthropic_release.html",
+      "expected_bytes": 357260,
+      "observed_bytes": 357260,
+      "expected_sha256": "af4253a61143b1583809d4bf4ea8358b40e5dd6f3f791ac3988bb6191ae6b1ef",
+      "observed_sha256": "af4253a61143b1583809d4bf4ea8358b40e5dd6f3f791ac3988bb6191ae6b1ef",
+      "matches": true,
+      "role": "frozen_input"
+    },
+    {
+      "file": "anthropic_systemcard.html",
+      "expected_bytes": 16397488,
+      "observed_bytes": 16397488,
+      "expected_sha256": "b0d59edc7a60eef32a879c13d713cce60c3fefd7e6b5183afdc8b835af3c8c39",
+      "observed_sha256": "b0d59edc7a60eef32a879c13d713cce60c3fefd7e6b5183afdc8b835af3c8c39",
+      "matches": true,
+      "role": "frozen_input"
+    },
+    {
+      "file": "aa_science.html",
+      "expected_bytes": 940047,
+      "observed_bytes": 940047,
+      "expected_sha256": "a0b7ea406acce84d9857e75846a16f3f529ed3e513192f3c851f413242903029",
+      "observed_sha256": "a0b7ea406acce84d9857e75846a16f3f529ed3e513192f3c851f413242903029",
+      "matches": true,
+      "role": "frozen_input"
+    },
+    {
+      "file": "tb_tree_v01.json",
+      "expected_bytes": 2141123,
+      "observed_bytes": 2141123,
+      "expected_sha256": "1268763bb02d1c4fbd40c246f5cea6a232e7f3f633cf36ed33fe693a85979d6d",
+      "observed_sha256": "1268763bb02d1c4fbd40c246f5cea6a232e7f3f633cf36ed33fe693a85979d6d",
+      "matches": true,
+      "role": "frozen_input"
+    },
+    {
+      "file": "tb_tag.json",
+      "expected_bytes": 379,
+      "observed_bytes": 379,
+      "expected_sha256": "bd85da6d7ff0eede4536ff4dd05589029c644fce1c162b41cef9cc3eefa8a4d2",
+      "observed_sha256": "bd85da6d7ff0eede4536ff4dd05589029c644fce1c162b41cef9cc3eefa8a4d2",
+      "matches": true,
+      "role": "frozen_input"
+    },
+    {
+      "file": "science_trial_sample.html",
+      "expected_bytes": 79155,
+      "observed_bytes": 79155,
+      "expected_sha256": "1d78d13c03ce419037992735e89be1dc36df01afda85eec187ef554ccd6e875f",
+      "observed_sha256": "1d78d13c03ce419037992735e89be1dc36df01afda85eec187ef554ccd6e875f",
+      "matches": true,
+      "role": "frozen_input"
+    },
+    {
+      "file": "science_fable_trial_sample.html",
+      "expected_bytes": 28189,
+      "observed_bytes": 28189,
+      "expected_sha256": "8c861c1645f547a4d1da968a546ae2fcbdcea30b29e0a262b73176a1f54e0686",
+      "observed_sha256": "8c861c1645f547a4d1da968a546ae2fcbdcea30b29e0a262b73176a1f54e0686",
+      "matches": true,
+      "role": "frozen_input"
+    },
+    {
+      "file": "openai_astra.html",
+      "expected_bytes": 9777,
+      "observed_bytes": 9777,
+      "expected_sha256": "790f4ac81cab41740164dfd4f9593bd686d1e415907b653f698edc5378700455",
+      "observed_sha256": "790f4ac81cab41740164dfd4f9593bd686d1e415907b653f698edc5378700455",
+      "matches": true,
+      "role": "frozen_input"
+    },
+    {
+      "file": "tb_news.html",
+      "expected_bytes": 99006,
+      "observed_bytes": 99006,
+      "expected_sha256": "a84bbe045e9b5756e1aebf51c31d422a3ff30821c9d8a810cff8296065cf9883",
+      "observed_sha256": "a84bbe045e9b5756e1aebf51c31d422a3ff30821c9d8a810cff8296065cf9883",
+      "matches": true,
+      "role": "background_no_endpoint"
+    },
+    {
+      "file": "openai_web_rendered.json",
+      "expected_bytes": 11575,
+      "observed_bytes": 11575,
+      "expected_sha256": "c4a1fa107a6ff7cbb12cac06705701a75bc7bde7a61a549e91b5fb87c85bdd4d",
+      "observed_sha256": "c4a1fa107a6ff7cbb12cac06705701a75bc7bde7a61a549e91b5fb87c85bdd4d",
+      "matches": true,
+      "role": "S2_rendered_only_not_raw_primary"
+    }
+  ],
+  "all_match": true
+}

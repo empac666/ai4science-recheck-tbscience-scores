@@ -1,0 +1,30 @@
+{
+  "recorded_at_utc": "2026-10-10T01:46:24.297916+00:00",
+  "implementation": "CPython",
+  "system": {
+    "os": "Linux",
+    "release": "6.12.94+",
+    "architecture": "x86_64"
+  },
+  "locked": {
+    "python": "3.13.5",
+    "numpy": "2.5.3",
+    "beautifulsoup4": "4.15.0",
+    "pdftotext": "25.03.0",
+    "matplotlib": "3.11.2"
+  },
+  "actual": {
+    "python": "3.13.5",
+    "numpy": "2.5.3",
+    "beautifulsoup4": "4.15.0",
+    "matplotlib": "3.11.2",
+    "pdftotext": "25.03.0"
+  },
+  "matches": {
+    "python": true,
+    "numpy": true,
+    "beautifulsoup4": true,
+    "pdftotext": true,
+    "matplotlib": true
+  }
+}

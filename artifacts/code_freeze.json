@@ -1,0 +1,33 @@
+{
+  "frozen_at_utc": "2026-10-10T01:50:16.410189+00:00",
+  "protocol_lock_commit": "acd553f7c989c1141424f8de33515727b4a61086",
+  "scope": "all analysis, tests, and tools Python code; synthetic tests preceded this freeze",
+  "execution_epoch": 3,
+  "prior_epoch_archives": [
+    "artifacts/execution_01",
+    "artifacts/execution_02"
+  ],
+  "sha256": {
+    "analysis/__init__.py": "63e9ec20c9891eff1db6eef9ee94b1113f84b24454959972358c50b120e127f5",
+    "analysis/constants.py": "2dda18c6ec647e1dd12a31e61448b5b84f8db07f53f3249d0578d11f22afbe5c",
+    "analysis/environment.py": "8d266216016fef3bb823a93d634f1ea472e31a1a28bc40f322928078e8fd83c0",
+    "analysis/freeze.py": "fa6563df697be42421d180ce1f704f03b175c6513fc8c45e8b14d59b8012ff06",
+    "analysis/outputs.py": "ccabaf5679b6a884ec51b3d357615760e17da6373f1e86f334749fe51bdb94fc",
+    "analysis/path_a.py": "b903271f8d201f06903f5a44f90347df2050d7edce7b6665ed5b88a12a919c1e",
+    "analysis/path_b.py": "4bc7e352aa8b84f98407c2ae8fc6c872a23d187097d1c6afeb0c699dabc097f7",
+    "analysis/predictions.py": "dec5ee19667f8e6b66c6e4a482e0fea93ecc4c9ee68d9f403da8c4fbfed7e9d8",
+    "analysis/run.py": "ef0bf7f3fc24ded8be4fa082ab121bc8b4c6a0105b05bbba995d8dff9ff349b9",
+    "analysis/sources.py": "2286786e22b36d0abadb79b2014af2f8f154b4fbbb04b6a6b1b3f133f91d4f02",
+    "analysis/statistics.py": "b7b943597d35f72a866d3fe242eb3b21661d102b656db92e4ad5000c299ba204",
+    "tests/__init__.py": "21555fe5f8a7a2ee684ffd11141fad5e32c03cde6d599904cfc8ab0c023fdd59",
+    "tests/check_artifacts.py": "b34adc6a0a72f02a35475005a9cec987db9143ae95608a17ffa252b46c0fcb63",
+    "tests/test_audit.py": "aaf86ad6487a9e0e2610e2bf29a308a4e245670dfb6663d38bb43bd50b5795ff",
+    "tools/audit_rules.py": "15bd2251744c3a9ea28146409d630d36cf9f73b1ccbed55ff2e186a1f86d0143",
+    "tools/fetch_inputs.py": "bd656324685e52763104757e760574b70f8892baf8f43f954677d822db0104a3"
+  },
+  "locked_documents": {
+    "PREREG.md": "24e8eff613e537d07c304ece15a7f960b141557217d5fefb3727ed43a96333bf",
+    "feasibility.md": "e3c1b4083bf4b8406925520d93bcada49e57572fe51413be96d1584256236ec9",
+    "INPUTS_SHA256SUMS": "a5e93820d68fe781aaa5d09b75752782e52966771c54ebb2e40d156238d9497e"
+  }
+}

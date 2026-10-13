@@ -1,0 +1,73 @@
+{
+  "first_execution_status": "completed_with_stopped_items",
+  "first_execution_started_at_utc": "2026-10-10T01:46:24.176923+00:00",
+  "first_execution_finished_at_utc": "2026-10-10T01:46:26.173750+00:00",
+  "recorded_at_utc": "2026-10-10T01:49:33.266706+00:00",
+  "archive": "artifacts/execution_01/",
+  "stopped_APs": {
+    "AP-07": {
+      "prediction": "来源未完整披露",
+      "observed": null,
+      "matches": false,
+      "status": "extraction_failed",
+      "deviation": "Extraction failed"
+    },
+    "AP-10": {
+      "prediction": "来源未完整披露",
+      "observed": null,
+      "matches": false,
+      "status": "extraction_failed",
+      "deviation": "Extraction failed"
+    },
+    "AP-12": {
+      "prediction": [
+        133
+      ],
+      "observed": null,
+      "matches": false,
+      "status": "extraction_failed",
+      "deviation": "Extraction failed"
+    },
+    "AP-17": {
+      "prediction": [
+        368
+      ],
+      "observed": null,
+      "matches": false,
+      "status": "extraction_failed",
+      "deviation": "Extraction failed"
+    }
+  },
+  "diagnosis": [
+    {
+      "item": "S1a / AP-07 / AP-12",
+      "observed_error": "AA score: expected unique node, got 3",
+      "implementation_correction": "Bind the score to GPT-6 Astra (Max) within the same locked unique innermost summary div; the original regex also captured scores of subsequent models."
+    },
+    {
+      "item": "S5 / AP-10 / AP-17",
+      "observed_error": "PDF section: expected unique node, got 2",
+      "implementation_correction": "Select the exact standalone section 8.7 heading in pdftotext layout text, excluding the table-of-contents entry, then require the same locked unique sentence."
+    }
+  ],
+  "protocol_changes": false,
+  "source_path_changes": false,
+  "predictions_thresholds_denominators_changed": false,
+  "first_run_interpretation": "Affected AP observations were null with extraction_failed and matches=false. Other independent calculations were retained. The first generated report incorrectly described all APs as complete; it is superseded by the corrected final report.",
+  "exposure_disclosure": "The corrected execution follows an observed first run; it is not blind. Every original code file and first-run AP record is archived. Final code hashes are frozen anew before corrected execution.",
+  "additional_executions": [
+    {
+      "execution_epoch": 2,
+      "status": "completed",
+      "archive": "artifacts/execution_02/",
+      "started_at_utc": "2026-10-10T01:48:02.391414+00:00",
+      "finished_at_utc": "2026-10-10T01:48:04.671701+00:00",
+      "all_AP_matches": true,
+      "diagnosis": "Auxiliary tree check incorrectly included CI, archived and tooling task.toml files (154) instead of the formal tasks/ directory (70). Core counts and APs were unaffected.",
+      "correction": "Limit task-name evidence to tasks/**/task.toml as intended by the frozen benchmark universe. Remove supplementary AA numeric reference from the figure footer so that only the seven claims and two recounts appear. Place the English repository/lock link in the second reply (three posts total).",
+      "protocol_changes": false,
+      "core_results_changed": false,
+      "exposure_disclosure": "This final implementation correction follows observed results; second-run results and every original code file are preserved."
+    }
+  ]
+}
